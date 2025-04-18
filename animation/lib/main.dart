@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       theme: ThemeData.dark(),
-      debugShowCheckedModeBanner: false,
+      debugShowCheckedModeBanner: true,
       home: SplashView(),
     );
   }
